@@ -7,7 +7,6 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import java.util.Date;
-import java.util.List;
 
 @Entity
 public class Team {
@@ -16,26 +15,30 @@ public class Team {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    //    @NotBlank(message = "Team identifier is required")
+    @NotBlank(message = "Team name is required")
+    private String name;
+
+    @NotBlank(message = "Team identifier is required")
     @Size(min = 2, message = "Please use min 2 characters")
     @Column(updatable = false, unique = true)
     private String teamIdentifier;
 
-    @NotBlank(message = "Team name is required")
-    private String name;
-
-    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL, mappedBy = "team")
-    @JsonIgnore
-    private List<Player> players;
+//    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH, mappedBy = "team")
+//    @JsonIgnore
+//    private List<Player> players;
 
 //    @Column
-//    @ElementCollection(targetClass = String.class, fetch = FetchType.EAGER)
+//    @ElementCollection(targetClass = Player.class, fetch = FetchType.EAGER)
 //    private List<Player> players;
 
     @JsonFormat(pattern = "yyyy-mm-dd")
     private Date createdAt;
     @JsonFormat(pattern = "yyyy-mm-dd")
     private Date updatedAt;
+
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL, mappedBy = "team")
+    @JsonIgnore
+    private Backlog backlog;
 
     public Team() {
     }
@@ -64,14 +67,6 @@ public class Team {
         this.name = name;
     }
 
-    public List<Player> getPlayers() {
-        return players;
-    }
-
-    public void setPlayers(List<Player> players) {
-        this.players = players;
-    }
-
     public Date getCreatedAt() {
         return createdAt;
     }
@@ -86,6 +81,14 @@ public class Team {
 
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
+    }
+
+    public Backlog getBacklog() {
+        return backlog;
+    }
+
+    public void setBacklog(Backlog backlog) {
+        this.backlog = backlog;
     }
 
     @PrePersist
