@@ -19,7 +19,8 @@ public class PlayerService {
         return playerRepository.findAll();
     }
 
-    public Player save(Player player) {
+//    TODO - przerobic! Przypisac do teamu!
+    public Player save(String teamIdentifier, Player player) {
         return playerRepository.save(player);
     }
 

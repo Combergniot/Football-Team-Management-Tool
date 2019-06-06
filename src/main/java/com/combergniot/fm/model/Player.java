@@ -11,15 +11,15 @@ import java.util.Date;
 public class Player {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-//    TODO
+
 //    @NotBlank(message = "Team ID is required")
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "team_id", referencedColumnName = "id")
-    @JsonIgnore
-    private Team team;
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "team_id", referencedColumnName = "id")
+//    @JsonIgnore
+//    private Team team;
 
     @NotBlank(message = "Player name is required")
     private String name;
@@ -33,6 +33,14 @@ public class Player {
     @JsonFormat(pattern = "yyyy-mm-dd")
     private Date updatedAt;
 
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "backlog_id", updatable = false, nullable = false)
+    @JsonIgnore
+    private Backlog backlog;
+
+    @Column(updatable = false)
+    private String teamIdentifier;
+
     public Player() {
     }
 
@@ -42,14 +50,6 @@ public class Player {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public Team getTeam() {
-        return team;
-    }
-
-    public void setTeam(Team team) {
-        this.team = team;
     }
 
     public String getName() {
@@ -84,6 +84,22 @@ public class Player {
         this.updatedAt = updatedAt;
     }
 
+    public Backlog getBacklog() {
+        return backlog;
+    }
+
+    public void setBacklog(Backlog backlog) {
+        this.backlog = backlog;
+    }
+
+    public String getTeamIdentifier() {
+        return teamIdentifier;
+    }
+
+    public void setTeamIdentifier(String teamIdentifier) {
+        this.teamIdentifier = teamIdentifier;
+    }
+
     @PrePersist
     protected void onCreate() {
         this.createdAt = new Date();
@@ -99,11 +115,12 @@ public class Player {
     public String toString() {
         return "Player{" +
                 "id=" + id +
-                ", team=" + team +
                 ", name='" + name + '\'' +
                 ", playerNumber=" + playerNumber +
                 ", createdAt=" + createdAt +
                 ", updatedAt=" + updatedAt +
+                ", backlog=" + backlog +
+                ", teamIdentifier='" + teamIdentifier + '\'' +
                 '}';
     }
 }
