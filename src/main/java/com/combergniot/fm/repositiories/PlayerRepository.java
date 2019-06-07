@@ -9,5 +9,7 @@ import java.util.Optional;
 @Repository
 public interface PlayerRepository extends CrudRepository<Player, Long> {
 
-    Optional<Player> findByName(String name);
+    Iterable<Player> findByName(String name);
+
+    Iterable<Player> findByTeamIdentifier(String teamIdentifier);
 }

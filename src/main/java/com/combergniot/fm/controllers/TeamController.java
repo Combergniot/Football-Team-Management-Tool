@@ -50,10 +50,12 @@ public class TeamController {
         return new ResponseEntity<Team>(team, HttpStatus.CREATED);
     }
 
+//    Removes the team and its players.
+//    Consider archival data storage - maybe the better option is change the status of the team (active/inactive)?
     @DeleteMapping("/{teamIdentifier}")
     public ResponseEntity<?> deleteTeam(@PathVariable String teamIdentifier) {
         teamService.deleteTeamByIdentifier(teamIdentifier.toUpperCase());
-        return new ResponseEntity<String>( teamIdentifier + "' team was deleted", HttpStatus.OK);
+        return new ResponseEntity<String>( "Team with identifier '" + teamIdentifier + "'  was deleted", HttpStatus.OK);
     }
 
 
