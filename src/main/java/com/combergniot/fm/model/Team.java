@@ -101,5 +101,15 @@ public class Team {
         this.updatedAt = new Date();
     }
 
-
+    @Override
+    public String toString() {
+        return "Team{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", teamIdentifier='" + teamIdentifier + '\'' +
+                ", createdAt=" + createdAt +
+                ", updatedAt=" + updatedAt +
+                ", teamSquad=" + teamSquad +
+                '}';
+    }
 }
