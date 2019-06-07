@@ -52,7 +52,7 @@ public class TeamService {
     public Team findByTeamIdentifier(String teamIdentifier) {
         Team team = teamRepository.findByTeamIdentifier(teamIdentifier);
         if (team == null) {
-            throw new TeamIdException("Team identifier '" + teamIdentifier + " does not exist");
+            throw new TeamIdException("Team identifier '" + teamIdentifier + "' does not exist");
         }
         return team;
     }

@@ -10,8 +10,6 @@ import com.combergniot.fm.repositiories.TeamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
-
 @Service
 public class PlayerService {
 
@@ -51,6 +49,32 @@ public class PlayerService {
     public Iterable<Player> findByName(String name) {
         Iterable<Player> players = playerRepository.findByName(name);
         return players;
+    }
+
+    public Player findPlayerByItsId(String backlog_id, Long player_id) {
+        Backlog backlog = backlogRepository.findByTeamIdentifier(backlog_id);
+        if (backlog == null) {
+            throw new TeamNotFoundException("Team with identifier: '" + backlog_id + "' does not exist");
+        }
+        Player player = playerRepository.findById(player_id).orElse(null);
+        if (player == null) {
+            throw new TeamNotFoundException("Player with ID: '" + player_id + "' not found");
+        }
+        if (!player.getTeamIdentifier().equals(backlog_id)) {
+            throw new TeamNotFoundException("Player with ID " + player_id + " does not exist in team: " + backlog_id);
+        }
+        return player;
+    }
+
+    public Player updatePlayerByItsId(Player updatedPlayer, String backlog_id, Long player_id) {
+        Player player = findPlayerByItsId(backlog_id, player_id);
+        player = updatedPlayer;
+        return playerRepository.save(player);
+    }
+
+    public void deletePlayerByItsId(String backlog_id, Long player_id) {
+        Player player = findPlayerByItsId(backlog_id, player_id);
+        playerRepository.delete(player);
     }
 
 

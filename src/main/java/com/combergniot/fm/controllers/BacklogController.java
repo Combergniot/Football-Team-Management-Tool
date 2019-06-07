@@ -10,7 +10,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/backlog")
@@ -50,6 +49,31 @@ public class BacklogController {
                 playerService.findByName(name);
         return players;
     }
+
+    @GetMapping("/{backlog_id}/{player_id}")
+    public ResponseEntity<?> getPlayer(@PathVariable String backlog_id, @PathVariable Long player_id) {
+        Player player = playerService.findPlayerByItsId(backlog_id, player_id);
+        return new ResponseEntity<>(player, HttpStatus.OK);
+    }
+
+//    PathMapping, not Post or Put, requestBody required player_id
+    @PatchMapping("/{backlog_id}/{player_id}")
+    public ResponseEntity<?> updatePlayerData(@Valid @RequestBody Player player, BindingResult bindingResult,
+                                                @PathVariable String backlog_id, @PathVariable Long player_id) {
+        ResponseEntity<?> errorMap = mapValidationErrorService.validationService(bindingResult);
+        if (errorMap != null) return errorMap;
+
+        Player updatedPlayer = playerService.updatePlayerByItsId(player, backlog_id, player_id);
+        return new ResponseEntity<>(updatedPlayer, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/{backlog_id}/{player_id}")
+    public ResponseEntity<?> deleteProjectTask(@PathVariable String backlog_id, @PathVariable Long player_id){
+        playerService.deletePlayerByItsId(backlog_id, player_id);
+        return new ResponseEntity<>("Player with ID '" + player_id + "' was successfully deleted", HttpStatus.OK);
+    }
+
+
 
 
 
