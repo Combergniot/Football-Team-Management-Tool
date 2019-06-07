@@ -1,10 +1,10 @@
 package com.combergniot.fm.services;
 
 import com.combergniot.fm.exceptions.TeamNotFoundException;
-import com.combergniot.fm.model.Backlog;
+import com.combergniot.fm.model.TeamSquad;
 import com.combergniot.fm.model.Player;
 import com.combergniot.fm.model.Team;
-import com.combergniot.fm.repositiories.BacklogRepository;
+import com.combergniot.fm.repositiories.TeamSquadRepository;
 import com.combergniot.fm.repositiories.PlayerRepository;
 import com.combergniot.fm.repositiories.TeamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ public class PlayerService {
     private PlayerRepository playerRepository;
 
     @Autowired
-    private BacklogRepository backlogRepository;
+    private TeamSquadRepository teamSquadRepository;
 
     @Autowired
     private TeamRepository teamRepository;
@@ -29,8 +29,8 @@ public class PlayerService {
 
     public Player addPlayer(String teamIdentifier, Player player) {
         try {
-            Backlog backlog = backlogRepository.findByTeamIdentifier(teamIdentifier);
-            player.setBacklog(backlog);
+            TeamSquad teamSquad = teamSquadRepository.findByTeamIdentifier(teamIdentifier);
+            player.setTeamSquad(teamSquad);
             player.setTeamIdentifier(teamIdentifier);
             return playerRepository.save(player);
         } catch (Exception e) {
@@ -38,7 +38,7 @@ public class PlayerService {
         }
     }
 
-    public Iterable<Player> findBacklogByTeamIdentifier(String teamIdentifier) {
+    public Iterable<Player> findTeamSquadByTeamIdentifier(String teamIdentifier) {
         Team team = teamRepository.findByTeamIdentifier(teamIdentifier);
         if (team == null) {
             throw new TeamNotFoundException("Team with identifier: '" + teamIdentifier + " does not exist");
@@ -51,29 +51,29 @@ public class PlayerService {
         return players;
     }
 
-    public Player findPlayerByItsId(String backlog_id, Long player_id) {
-        Backlog backlog = backlogRepository.findByTeamIdentifier(backlog_id);
-        if (backlog == null) {
-            throw new TeamNotFoundException("Team with identifier: '" + backlog_id + "' does not exist");
+    public Player findPlayerByItsId(String teamIdentifier, Long player_id) {
+        TeamSquad teamSquad = teamSquadRepository.findByTeamIdentifier(teamIdentifier);
+        if (teamSquad == null) {
+            throw new TeamNotFoundException("Team with identifier: '" + teamIdentifier + "' does not exist");
         }
         Player player = playerRepository.findById(player_id).orElse(null);
         if (player == null) {
             throw new TeamNotFoundException("Player with ID: '" + player_id + "' not found");
         }
-        if (!player.getTeamIdentifier().equals(backlog_id)) {
-            throw new TeamNotFoundException("Player with ID " + player_id + " does not exist in team: " + backlog_id);
+        if (!player.getTeamIdentifier().equals(teamIdentifier)) {
+            throw new TeamNotFoundException("Player with ID " + player_id + " does not exist in team: " + teamIdentifier);
         }
         return player;
     }
 
-    public Player updatePlayerByItsId(Player updatedPlayer, String backlog_id, Long player_id) {
-        Player player = findPlayerByItsId(backlog_id, player_id);
+    public Player updatePlayerByItsId(Player updatedPlayer, String teamIdentifier, Long player_id) {
+        Player player = findPlayerByItsId(teamIdentifier, player_id);
         player = updatedPlayer;
         return playerRepository.save(player);
     }
 
-    public void deletePlayerByItsId(String backlog_id, Long player_id) {
-        Player player = findPlayerByItsId(backlog_id, player_id);
+    public void deletePlayerByItsId(String teamIdentifier, Long player_id) {
+        Player player = findPlayerByItsId(teamIdentifier, player_id);
         playerRepository.delete(player);
     }
 

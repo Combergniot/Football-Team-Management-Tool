@@ -1,9 +1,9 @@
 package com.combergniot.fm.services;
 
 import com.combergniot.fm.exceptions.TeamIdException;
-import com.combergniot.fm.model.Backlog;
+import com.combergniot.fm.model.TeamSquad;
 import com.combergniot.fm.model.Team;
-import com.combergniot.fm.repositiories.BacklogRepository;
+import com.combergniot.fm.repositiories.TeamSquadRepository;
 import com.combergniot.fm.repositiories.TeamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,7 +17,7 @@ public class TeamService {
     private TeamRepository teamRepository;
 
     @Autowired
-    private BacklogRepository backlogRepository;
+    private TeamSquadRepository teamSquadRepository;
 
     public Iterable<Team> getAll() {
         return teamRepository.findAll();
@@ -27,14 +27,14 @@ public class TeamService {
         try {
             team.setTeamIdentifier(team.getTeamIdentifier().toUpperCase());
             if (team.getId() == null) {
-                Backlog backlog = new Backlog();
-                team.setBacklog(backlog);
-                backlog.setTeam(team);
-                backlog.setTeamIdentifier(team.getTeamIdentifier().toUpperCase());
+                TeamSquad teamSquad = new TeamSquad();
+                team.setTeamSquad(teamSquad);
+                teamSquad.setTeam(team);
+                teamSquad.setTeamIdentifier(team.getTeamIdentifier().toUpperCase());
             }
 
             if (team.getId() != null) {
-                team.setBacklog(backlogRepository.findByTeamIdentifier(
+                team.setTeamSquad(teamSquadRepository.findByTeamIdentifier(
                         team.getTeamIdentifier().toUpperCase()));
             }
             return teamRepository.save(team);

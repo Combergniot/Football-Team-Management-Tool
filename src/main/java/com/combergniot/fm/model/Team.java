@@ -38,7 +38,7 @@ public class Team {
 
     @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL, mappedBy = "team")
     @JsonIgnore
-    private Backlog backlog;
+    private TeamSquad teamSquad;
 
     public Team() {
     }
@@ -83,12 +83,12 @@ public class Team {
         this.updatedAt = updatedAt;
     }
 
-    public Backlog getBacklog() {
-        return backlog;
+    public TeamSquad getTeamSquad() {
+        return teamSquad;
     }
 
-    public void setBacklog(Backlog backlog) {
-        this.backlog = backlog;
+    public void setTeamSquad(TeamSquad teamSquad) {
+        this.teamSquad = teamSquad;
     }
 
     @PrePersist
