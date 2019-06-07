@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-public class Backlog {
+public class TeamSquad {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,10 +22,10 @@ public class Backlog {
     private Team team;
 
     //    OneToMany players;
-    @OneToMany(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER, mappedBy = "backlog", orphanRemoval = true)
+    @OneToMany(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER, mappedBy = "teamSquad", orphanRemoval = true)
       private List<Player> players = new ArrayList<>();
 
-    public Backlog() {
+    public TeamSquad() {
     }
 
     public Long getId() {

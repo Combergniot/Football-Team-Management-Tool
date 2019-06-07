@@ -34,9 +34,9 @@ public class Player {
     private Date updatedAt;
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "backlog_id", updatable = false, nullable = false)
+    @JoinColumn(name = "team_squad_id", updatable = false, nullable = false)
     @JsonIgnore
-    private Backlog backlog;
+    private TeamSquad teamSquad;
 
     @Column(updatable = false)
     private String teamIdentifier;
@@ -84,12 +84,12 @@ public class Player {
         this.updatedAt = updatedAt;
     }
 
-    public Backlog getBacklog() {
-        return backlog;
+    public TeamSquad getTeamSquad() {
+        return teamSquad;
     }
 
-    public void setBacklog(Backlog backlog) {
-        this.backlog = backlog;
+    public void setTeamSquad(TeamSquad teamSquad) {
+        this.teamSquad = teamSquad;
     }
 
     public String getTeamIdentifier() {
@@ -119,7 +119,7 @@ public class Player {
                 ", playerNumber=" + playerNumber +
                 ", createdAt=" + createdAt +
                 ", updatedAt=" + updatedAt +
-                ", backlog=" + backlog +
+                ", teamSquad=" + teamSquad +
                 ", teamIdentifier='" + teamIdentifier + '\'' +
                 '}';
     }
