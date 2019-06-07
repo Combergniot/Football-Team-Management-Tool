@@ -58,5 +58,4 @@ public class TeamController {
         return new ResponseEntity<String>( "Team with identifier '" + teamIdentifier + "'  was deleted", HttpStatus.OK);
     }
 
-
 }
