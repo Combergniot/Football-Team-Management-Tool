@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="347466c3-5217-48c8-b2a2-22ff6d4aa722" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/FM.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/controllers/TeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/controllers/TeamController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/controllers/TeamSquadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/controllers/TeamSquadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/CustomResponseEntityExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/CustomResponseEntityExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/TeamIdException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/TeamIdException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/TeamIdExceptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/TeamIdExceptionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/TeamNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/TeamNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/TeamNotFoundExceptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/exceptions/TeamNotFoundExceptionResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/TeamSquad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/TeamSquad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/repositiories/PlayerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/repositiories/PlayerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/repositiories/TeamRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/repositiories/TeamRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/repositiories/TeamSquadRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/repositiories/TeamSquadRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/services/MapValidationErrorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/services/MapValidationErrorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/services/PlayerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/services/PlayerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/services/TeamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/services/TeamService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/combergniot/fm/controllers/TeamControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/combergniot/fm/controllers/TeamControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/combergniot/fm/controllers/TeamSquadControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/combergniot/fm/controllers/TeamSquadControllerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="187">
               <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -38,24 +56,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-738">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="421">
+              <caret line="79" column="54" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="79" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#2513#2521#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1732#1733#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/TeamRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="85">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-415">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="1853">
               <caret line="109" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
@@ -97,8 +105,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="136">
+              <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/TeamSquad.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamSquadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="25" selection-start-line="25" selection-end-line="33" />
+            <state relative-caret-position="271">
+              <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,11 +138,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="449">
+              <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+                <element signature="e#1547#1548#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,14 +205,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/BacklogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/TeamSquadRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/PlayerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/TeamSquad.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamSquadController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java" />
       </list>
     </option>
   </component>
@@ -210,42 +235,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -253,17 +280,8 @@
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fm" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -271,48 +289,42 @@
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fm" type="462c0819:PsiDirectoryNode" />
-              <item name="repositiories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FM" type="462c0819:PsiDirectoryNode" />
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +332,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ppmtool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.25115207" />
@@ -349,14 +361,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TeamControllerTest.testDeleteTeam">
+  <component name="RunManager" selected="JUnit.TeamSquadControllerTest.testGetTeamSquad">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeamControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeamControllerTest.testCreateNewTeam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FM" />
       <extension name="coverage">
         <pattern>
@@ -366,23 +378,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
       <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeamControllerTest.shouldSayThat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.combergniot.fm.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamControllerTest" />
-      <option name="METHOD_NAME" value="shouldSayThat" />
+      <option name="METHOD_NAME" value="testCreateNewTeam" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -423,7 +419,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeamControllerTest.testGetTeamByTeamIdentifier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TeamSquadControllerTest.testAddPlayerToSquad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FM" />
       <extension name="coverage">
         <pattern>
@@ -432,8 +428,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamControllerTest" />
-      <option name="METHOD_NAME" value="testGetTeamByTeamIdentifier" />
+      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamSquadControllerTest" />
+      <option name="METHOD_NAME" value="testAddPlayerToSquad" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamSquadControllerTest.testGetTeamSquad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.combergniot.fm.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamSquadControllerTest" />
+      <option name="METHOD_NAME" value="testGetTeamSquad" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -458,11 +471,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TeamSquadControllerTest.testGetTeamSquad" />
+        <item itemvalue="JUnit.TeamSquadControllerTest.testAddPlayerToSquad" />
         <item itemvalue="JUnit.TeamControllerTest.testDeleteTeam" />
-        <item itemvalue="JUnit.TeamControllerTest" />
         <item itemvalue="JUnit.TeamControllerTest.testGetAll" />
-        <item itemvalue="JUnit.TeamControllerTest.testGetTeamByTeamIdentifier" />
-        <item itemvalue="JUnit.TeamControllerTest.shouldSayThat" />
+        <item itemvalue="JUnit.TeamControllerTest.testCreateNewTeam" />
       </list>
     </recent_temporary>
   </component>
@@ -480,42 +493,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TeamControllerTest_testGetAll - 2019.06.07 at 13h 36m 15s.xml">
-      <configuration name="TeamControllerTest.testGetAll" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 15h 51m 37s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamControllerTest_testGetAll - 2019.06.07 at 13h 37m 15s.xml">
-      <configuration name="TeamControllerTest.testGetAll" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 15h 52m 08s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamControllerTest_testGetAll - 2019.06.07 at 13h 38m 55s.xml">
-      <configuration name="TeamControllerTest.testGetAll" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 15h 52m 23s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamControllerTest_testGetAll - 2019.06.07 at 13h 40m 52s.xml">
-      <configuration name="TeamControllerTest.testGetAll" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 15h 52m 37s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamControllerTest_testGetAll - 2019.06.07 at 13h 44m 47s.xml">
-      <configuration name="TeamControllerTest.testGetAll" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 15h 54m 55s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamControllerTest_testDeleteTeam - 2019.06.07 at 13h 52m 28s.xml">
-      <configuration name="TeamControllerTest.testDeleteTeam" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 15h 56m 48s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamControllerTest_testDeleteTeam - 2019.06.07 at 13h 53m 56s.xml">
-      <configuration name="TeamControllerTest.testDeleteTeam" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 15h 57m 24s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamControllerTest - 2019.06.07 at 13h 55m 29s.xml">
-      <configuration name="TeamControllerTest" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 15h 58m 07s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamControllerTest - 2019.06.07 at 13h 57m 43s.xml">
-      <configuration name="TeamControllerTest" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 17h 29m 57s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamControllerTest - 2019.06.07 at 13h 58m 47s.xml">
-      <configuration name="TeamControllerTest" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.08 at 17h 31m 40s.xml">
+      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20904645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -525,12 +538,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="DB Execution Console" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -544,6 +557,42 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java</url>
+          <line>58</line>
+          <properties class="com.combergniot.fm.controllers.TeamSquadControllerTest" method="testAddPlayerToSquad">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java</url>
+          <line>75</line>
+          <properties class="com.combergniot.fm.controllers.TeamControllerTest" method="testGetAll">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java</url>
+          <line>70</line>
+          <properties class="com.combergniot.fm.controllers.TeamSquadControllerTest" method="testGetTeamSquad">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties.kt" />
@@ -561,16 +610,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/PlayerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/PlayerController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/PlayerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1006">
@@ -673,40 +713,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/TeamSquad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/CustomResponseEntityExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/TeamRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -720,6 +730,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/TeamRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -730,10 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/TeamSquad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="408">
+          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -742,8 +769,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="187">
           <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -752,37 +799,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamSquadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="25" selection-start-line="25" selection-end-line="33" />
+        <state relative-caret-position="271">
+          <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="421">
+          <caret line="79" column="54" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="79" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-738">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="449">
+          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#2513#2521#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
           </folding>
         </state>
       </provider>

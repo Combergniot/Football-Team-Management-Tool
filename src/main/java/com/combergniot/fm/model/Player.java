@@ -28,9 +28,9 @@ public class Player {
 //    @NotBlank(message = "Player number is required")
     private int playerNumber;
 
-    @JsonFormat(pattern = "yyyy-mm-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date createdAt;
-    @JsonFormat(pattern = "yyyy-mm-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private Date updatedAt;
 
     @ManyToOne(fetch = FetchType.EAGER)
