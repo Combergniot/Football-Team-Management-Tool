@@ -26,7 +26,7 @@ public class TeamControllerTest {
     @LocalServerPort
     private int port;
 
-//    Todo = use BeforeClass or BeforeAll adnotation
+    //    Todo = use BeforeClass or BeforeAll adnotation
     @Before
     public void initialize() {
         Team team = new Team();
@@ -60,10 +60,9 @@ public class TeamControllerTest {
         team.setName("Manchester City");
         team.setTeamIdentifier("MC");
         ResponseEntity<Team> postResponse = restTemplate.postForEntity(getRootUrl() + "/team/", team, Team.class);
-
-        assertNotNull(postResponse);
-        assertNotNull(postResponse.getBody());
+        System.out.println(postResponse.getStatusCode() +": " + postResponse.getBody().toString());
         assertEquals("Manchester City", postResponse.getBody().getName());
+        assertEquals(HttpStatus.CREATED, postResponse.getStatusCode());
     }
 
     @Test
@@ -76,23 +75,24 @@ public class TeamControllerTest {
     @Test
     public void testGetAll() {
         HttpHeaders headers = new HttpHeaders();
-        HttpEntity<String> entity = new HttpEntity<String>(null, headers);
+        HttpEntity<String> entity = new HttpEntity<>(null, headers);
         ResponseEntity<String> response = restTemplate.exchange(getRootUrl() + "/team/all",
                 HttpMethod.GET, entity, String.class);
-        System.out.println(response.getBody());
+        System.out.println(response.getStatusCode() +": " + response.getBody());
         assertNotNull(response.getBody());
     }
 
     @Test
-    public void testDeleteTeam(){
-        String teamIdentifier ="KS CONCORDIA";
+    public void testDeleteTeam() {
+        String teamIdentifier = "KS CONCORDIA";
         Team team = restTemplate.getForObject(getRootUrl() + "/team/" + teamIdentifier, Team.class);
         assertNotNull(team);
+        System.out.println("Before delete: " + team.getTeamIdentifier());
         restTemplate.delete(getRootUrl() + "/team/" + teamIdentifier);
 
         try {
-          team = restTemplate.getForObject(getRootUrl() + "/team/" + teamIdentifier, Team.class);
-          System.out.println(team);
+            team = restTemplate.getForObject(getRootUrl() + "/team/" + teamIdentifier, Team.class);
+            System.out.println("After delete: " + team.getTeamIdentifier());
         } catch (final HttpClientErrorException e) {
             assertEquals(e.getStatusCode(), HttpStatus.NOT_FOUND);
         }
