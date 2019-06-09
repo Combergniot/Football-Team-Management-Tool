@@ -3,11 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="347466c3-5217-48c8-b2a2-22ff6d4aa722" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/TeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/TeamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/controllers/TeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/controllers/TeamController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/model/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/combergniot/fm/services/TeamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/combergniot/fm/services/TeamService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/combergniot/fm/controllers/TeamControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/combergniot/fm/controllers/TeamControllerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/combergniot/fm/controllers/TeamSquadControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/combergniot/fm/controllers/TeamSquadControllerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="969">
+              <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,22 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/PlayerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="97" column="9" lean-forward="true" selection-start-line="87" selection-start-column="7" selection-end-line="97" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/TeamRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="267">
+              <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="721">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,27 +65,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/TeamNotFoundExceptionResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/MapValidationErrorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+            <state relative-caret-position="374">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#1322#1323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamSquadController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/CustomResponseEntityExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/TeamIdException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,7 +134,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/TeamSquad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
+            <state relative-caret-position="540">
               <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,37 +159,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamSquadController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="142" column="52" lean-forward="true" selection-start-line="142" selection-start-column="52" selection-end-line="142" selection-end-column="52" />
+            <state relative-caret-position="323">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1322#1323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,6 +193,7 @@
     <findStrings>
       <find>pdatable = false,</find>
       <find>backlog</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,19 +214,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/PlayerNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/CustomResponseEntityExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/TeamNotFoundExceptionResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/TeamService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/PlayerRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/BacklogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/TeamSquadRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/PlayerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/TeamSquad.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamSquadController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/PlayerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/TeamService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java" />
       </list>
     </option>
   </component>
@@ -283,6 +299,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fm" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Football-Team-Management-Tool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fm" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Football-Team-Management-Tool" type="b2602c69:ProjectViewProjectNode" />
@@ -366,6 +391,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TeamControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.combergniot.fm.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamControllerTest.testDeleteTeam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.combergniot.fm.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteTeam" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamControllerTest.testUpdateTeamData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.combergniot.fm.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamControllerTest" />
+      <option name="METHOD_NAME" value="testUpdateTeamData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TeamSquadControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FM" />
       <extension name="coverage">
@@ -399,57 +474,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeamSquadControllerTest.testGetAllPlayers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.combergniot.fm.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamSquadControllerTest" />
-      <option name="METHOD_NAME" value="testGetAllPlayers" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeamSquadControllerTest.testGetPlayerByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.combergniot.fm.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamSquadControllerTest" />
-      <option name="METHOD_NAME" value="testGetPlayerByName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeamSquadControllerTest.testGetTeamSquad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.combergniot.fm.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.combergniot.fm.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.combergniot.fm.controllers.TeamSquadControllerTest" />
-      <option name="METHOD_NAME" value="testGetTeamSquad" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -470,9 +494,9 @@
       <list>
         <item itemvalue="JUnit.TeamSquadControllerTest" />
         <item itemvalue="JUnit.TeamSquadControllerTest.testDeletePlayer" />
-        <item itemvalue="JUnit.TeamSquadControllerTest.testGetAllPlayers" />
-        <item itemvalue="JUnit.TeamSquadControllerTest.testGetPlayerByName" />
-        <item itemvalue="JUnit.TeamSquadControllerTest.testGetTeamSquad" />
+        <item itemvalue="JUnit.TeamControllerTest" />
+        <item itemvalue="JUnit.TeamControllerTest.testUpdateTeamData" />
+        <item itemvalue="JUnit.TeamControllerTest.testDeleteTeam" />
       </list>
     </recent_temporary>
   </component>
@@ -490,35 +514,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TeamSquadControllerTest_testUpdatePlayerData - 2019.06.09 at 10h 22m 51s.xml">
-      <configuration name="TeamSquadControllerTest.testUpdatePlayerData" configurationId="JUnit" />
+    <history-entry file="TeamControllerTest_testUpdateTeamData - 2019.06.09 at 11h 47m 59s.xml">
+      <configuration name="TeamControllerTest.testUpdateTeamData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamSquadControllerTest_testUpdatePlayerData - 2019.06.09 at 10h 25m 35s.xml">
-      <configuration name="TeamSquadControllerTest.testUpdatePlayerData" configurationId="JUnit" />
+    <history-entry file="TeamControllerTest_testDeleteTeam - 2019.06.09 at 11h 48m 18s.xml">
+      <configuration name="TeamControllerTest.testDeleteTeam" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamSquadControllerTest_testGetTeamSquad - 2019.06.09 at 10h 26m 22s.xml">
-      <configuration name="TeamSquadControllerTest.testGetTeamSquad" configurationId="JUnit" />
+    <history-entry file="TeamControllerTest_testDeleteTeam - 2019.06.09 at 11h 48m 31s.xml">
+      <configuration name="TeamControllerTest.testDeleteTeam" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamSquadControllerTest_testGetPlayerByName - 2019.06.09 at 10h 29m 29s.xml">
-      <configuration name="TeamSquadControllerTest.testGetPlayerByName" configurationId="JUnit" />
+    <history-entry file="TeamControllerTest_testUpdateTeamData - 2019.06.09 at 11h 48m 43s.xml">
+      <configuration name="TeamControllerTest.testUpdateTeamData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamSquadControllerTest_testGetPlayerByName - 2019.06.09 at 10h 29m 53s.xml">
-      <configuration name="TeamSquadControllerTest.testGetPlayerByName" configurationId="JUnit" />
+    <history-entry file="TeamControllerTest_testUpdateTeamData - 2019.06.09 at 11h 49m 39s.xml">
+      <configuration name="TeamControllerTest.testUpdateTeamData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamSquadControllerTest_testGetPlayerByName - 2019.06.09 at 10h 30m 51s.xml">
-      <configuration name="TeamSquadControllerTest.testGetPlayerByName" configurationId="JUnit" />
+    <history-entry file="TeamControllerTest_testUpdateTeamData - 2019.06.09 at 11h 50m 42s.xml">
+      <configuration name="TeamControllerTest.testUpdateTeamData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamSquadControllerTest_testGetPlayerByName - 2019.06.09 at 10h 31m 13s.xml">
-      <configuration name="TeamSquadControllerTest.testGetPlayerByName" configurationId="JUnit" />
+    <history-entry file="TeamControllerTest_testUpdateTeamData - 2019.06.09 at 11h 52m 28s.xml">
+      <configuration name="TeamControllerTest.testUpdateTeamData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamSquadControllerTest_testGetPlayerByName - 2019.06.09 at 10h 32m 32s.xml">
-      <configuration name="TeamSquadControllerTest.testGetPlayerByName" configurationId="JUnit" />
+    <history-entry file="TeamControllerTest - 2019.06.09 at 11h 52m 46s.xml">
+      <configuration name="TeamControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamSquadControllerTest_testGetAllPlayers - 2019.06.09 at 10h 36m 12s.xml">
-      <configuration name="TeamSquadControllerTest.testGetAllPlayers" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest_testDeletePlayer - 2019.06.09 at 11h 54m 10s.xml">
+      <configuration name="TeamSquadControllerTest.testDeletePlayer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeamSquadControllerTest_testGetAllPlayers - 2019.06.09 at 10h 37m 49s.xml">
-      <configuration name="TeamSquadControllerTest.testGetAllPlayers" configurationId="JUnit" />
+    <history-entry file="TeamSquadControllerTest - 2019.06.09 at 11h 54m 27s.xml">
+      <configuration name="TeamSquadControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -560,7 +584,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java</url>
-          <line>20</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -600,26 +624,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/PlayerController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/PlayerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1006">
-          <caret line="63" column="120" selection-start-line="63" selection-start-column="120" selection-end-line="63" selection-end-column="120" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/MapValidationErrorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/PlayerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -640,14 +644,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/TeamIdException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/TeamNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/TeamRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -667,51 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/TeamNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/TeamNotFoundExceptionResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/TeamService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/CustomResponseEntityExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -719,27 +686,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/repositiories/TeamRepository.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="590">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="-480">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2130#2131#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="1132">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1736#1737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/TeamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-588">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/PlayerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/services/MapValidationErrorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -748,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/TeamSquad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
+        <state relative-caret-position="540">
           <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -772,36 +783,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/TeamNotFoundExceptionResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="969">
+          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -810,30 +810,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/controllers/TeamSquadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+        <state relative-caret-position="1088">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/CustomResponseEntityExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="97" column="9" lean-forward="true" selection-start-line="87" selection-start-column="7" selection-end-line="97" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/combergniot/fm/controllers/TeamSquadControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/exceptions/TeamIdException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="142" column="52" lean-forward="true" selection-start-line="142" selection-start-column="52" selection-end-line="142" selection-end-column="52" />
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/combergniot/fm/model/Team.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -16,10 +16,14 @@ public class Team {
     private Long id;
     @NotBlank(message = "Team name is required")
     private String name;
+
+//    Team identifier as unique shortcut of team name, for example "JUV" for Juventus, etc.
+//    consider to automatic generate team identifier using its name
     @NotBlank(message = "Team identifier is required")
     @Size(min = 2, message = "Please use min 2 characters")
     @Column(updatable = false, unique = true)
     private String teamIdentifier;
+
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date createdAt;
     @JsonFormat(pattern = "yyyy-MM-dd")

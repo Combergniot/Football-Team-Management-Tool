@@ -29,7 +29,7 @@ public class TeamSquadController {
         ResponseEntity<?> errorMap = mapValidationErrorService.validationService(bindingResult);
         if (errorMap != null) return errorMap;
         Player player1 = playerService.addPlayer(teamIdentifier, player);
-        return new ResponseEntity<Player>(player1, HttpStatus.CREATED);
+        return new ResponseEntity<>(player1, HttpStatus.CREATED);
     }
 
     @GetMapping("/{teamIdentifier}")
