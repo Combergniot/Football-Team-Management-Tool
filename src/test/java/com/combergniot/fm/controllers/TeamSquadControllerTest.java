@@ -5,7 +5,6 @@ import com.combergniot.fm.model.Player;
 import com.combergniot.fm.model.Team;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -131,7 +130,7 @@ public class TeamSquadControllerTest {
     @Test
     public void testDeletePlayer(){
         String teamIdentifier = "JUV/";
-        Long playerId = Long.valueOf(3);
+        Long playerId = 3L;
 
         Player player = restTemplate.getForObject(getRootUrl() + "/squad/" + teamIdentifier + playerId, Player.class);
         assertNotNull(player);

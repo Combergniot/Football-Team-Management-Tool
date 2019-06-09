@@ -58,4 +58,15 @@ public class TeamController {
         return new ResponseEntity<String>( "Team with identifier '" + teamIdentifier + "'  was deleted", HttpStatus.OK);
     }
 
+//    PathMapping, requestBody in Postman required teamId
+    @PatchMapping("/{teamIdentifier}")
+    public ResponseEntity<?> updateTeamData(@Valid @RequestBody Team team, BindingResult bindingResult,
+                                              @PathVariable String teamIdentifier) {
+        ResponseEntity<?> errorMap = mapValidationErrorService.validationService(bindingResult);
+        if (errorMap != null) return errorMap;
+
+        Team updatedTeam = teamService.updateTeamData(team, teamIdentifier);
+        return new ResponseEntity<>(updatedTeam, HttpStatus.OK);
+    }
+
 }

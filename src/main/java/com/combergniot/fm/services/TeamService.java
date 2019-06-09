@@ -66,5 +66,11 @@ public class TeamService {
         }
         teamRepository.delete(team);
     }
+
+    public Team updateTeamData(Team updatedTeam, String teamIdentifier) {
+        Team team = teamRepository.findByTeamIdentifier(teamIdentifier);
+        team = updatedTeam;
+        return teamRepository.save(team);
+    }
 }
 
