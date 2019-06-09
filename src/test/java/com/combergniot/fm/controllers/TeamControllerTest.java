@@ -26,7 +26,6 @@ public class TeamControllerTest {
     @LocalServerPort
     private int port;
 
-    //    Todo = use BeforeClass or BeforeAll adnotation
     @Before
     public void initialize() {
         Team team = new Team();
@@ -98,7 +97,5 @@ public class TeamControllerTest {
         }
 
     }
-
-//    TODO testUpdateTeam
 
 }
