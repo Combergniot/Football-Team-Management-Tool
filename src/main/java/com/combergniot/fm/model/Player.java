@@ -14,18 +14,10 @@ public class Player {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
-//    @NotBlank(message = "Team ID is required")
-//    @ManyToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "team_id", referencedColumnName = "id")
-//    @JsonIgnore
-//    private Team team;
-
     @NotBlank(message = "Player name is required")
     private String name;
 
     @Column(nullable = false)
-//    @NotBlank(message = "Player number is required")
     private int playerNumber;
 
     @JsonFormat(pattern = "yyyy-MM-dd")

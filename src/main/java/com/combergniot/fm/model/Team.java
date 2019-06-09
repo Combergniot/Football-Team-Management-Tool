@@ -14,23 +14,12 @@ public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @NotBlank(message = "Team name is required")
     private String name;
-
     @NotBlank(message = "Team identifier is required")
     @Size(min = 2, message = "Please use min 2 characters")
     @Column(updatable = false, unique = true)
     private String teamIdentifier;
-
-//    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.REFRESH, mappedBy = "team")
-//    @JsonIgnore
-//    private List<Player> players;
-
-//    @Column
-//    @ElementCollection(targetClass = Player.class, fetch = FetchType.EAGER)
-//    private List<Player> players;
-
     @JsonFormat(pattern = "yyyy-MM-dd")
     private Date createdAt;
     @JsonFormat(pattern = "yyyy-MM-dd")
