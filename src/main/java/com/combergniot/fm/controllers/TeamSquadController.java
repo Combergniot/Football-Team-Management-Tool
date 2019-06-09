@@ -68,7 +68,7 @@ public class TeamSquadController {
     }
 
     @DeleteMapping("/{teamIdentifier}/{player_id}")
-    public ResponseEntity<?> deleteProjectTask(@PathVariable String teamIdentifier, @PathVariable Long player_id) {
+    public ResponseEntity<?> deletePlayer(@PathVariable String teamIdentifier, @PathVariable Long player_id) {
         playerService.deletePlayerByItsId(teamIdentifier, player_id);
         return new ResponseEntity<>("Player with ID '" + player_id + "' was successfully deleted", HttpStatus.OK);
     }
